@@ -677,12 +677,50 @@
                 "y": 520
               }
             ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "30166368-1ba1-4f2d-a77b-e479d68a7ff5",
+            "source": {
+              "x": 1150,
+              "y": 250
+            },
+            "target": {
+              "x": 1260,
+              "y": 220
+            }
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 4
   }
 }
