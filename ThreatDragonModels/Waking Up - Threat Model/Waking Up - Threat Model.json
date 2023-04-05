@@ -275,6 +275,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Floormate"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -289,7 +292,7 @@
             "zIndex": 6,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Floormate",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
