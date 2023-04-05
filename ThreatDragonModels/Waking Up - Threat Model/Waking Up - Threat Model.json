@@ -158,6 +158,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Laundry Room"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -172,7 +175,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Laundry Room",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
