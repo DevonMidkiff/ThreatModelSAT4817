@@ -121,6 +121,19 @@
                   "new": false,
                   "number": 1,
                   "score": "6"
+                },
+                {
+                  "id": "de314b22-c5ac-4dc6-bcbb-3352604ca1ba",
+                  "title": "Electrocution",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Cheap desk fan is unreliable and could shock the user",
+                  "mitigation": "Buy a better fan\nPut the fan further away",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": "3"
                 }
               ]
             }
@@ -654,6 +667,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
