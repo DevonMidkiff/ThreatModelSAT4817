@@ -236,6 +236,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Stairs to the Main Floor"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -250,7 +253,7 @@
             "zIndex": 5,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Stairs to the Main Floor",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
