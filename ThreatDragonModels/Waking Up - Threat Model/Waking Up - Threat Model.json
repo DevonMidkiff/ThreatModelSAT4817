@@ -1,0 +1,16 @@
+{
+  "version": "2.0.1",
+  "summary": {
+    "title": "Waking Up - Threat Model",
+    "owner": "Devon Midkiff",
+    "description": "The threats associated with waking up and getting out of bed in the morning.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
