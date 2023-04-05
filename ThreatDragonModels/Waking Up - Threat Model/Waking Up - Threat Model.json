@@ -27,8 +27,8 @@
               "height": 271.875
             },
             "shape": "trust-boundary-box",
-            "id": "cd873318-7086-4b71-ad42-80918afa9dce",
             "zIndex": -1,
+            "id": "cd873318-7086-4b71-ad42-80918afa9dce",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -54,8 +54,8 @@
               }
             },
             "shape": "actor",
-            "id": "5c9d2d65-2e6e-4f52-86cf-f4f8e31f51eb",
             "zIndex": 0,
+            "id": "5c9d2d65-2e6e-4f52-86cf-f4f8e31f51eb",
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -77,6 +77,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Bed"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -91,7 +94,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Bed",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
