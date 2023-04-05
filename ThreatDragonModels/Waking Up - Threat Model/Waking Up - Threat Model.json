@@ -197,6 +197,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Bathroom"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -211,7 +214,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Bathroom",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
