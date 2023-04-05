@@ -47,6 +47,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Roommate"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -58,7 +61,7 @@
             "id": "5c9d2d65-2e6e-4f52-86cf-f4f8e31f51eb",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Roommate",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
