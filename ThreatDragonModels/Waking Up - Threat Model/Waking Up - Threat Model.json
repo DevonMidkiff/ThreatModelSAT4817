@@ -288,11 +288,13 @@
                 "text": "Bathroom"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -309,8 +311,35 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "0bf3fd24-a506-4722-943c-3b5559b505b5",
+                  "title": "Constipation",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Denial of bathroom services",
+                  "mitigation": "Laxatives ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": "3"
+                },
+                {
+                  "id": "b565121c-1a9a-4db5-bb6b-a3c6a40cc0c4",
+                  "title": "Head Hazzard",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": " A low ceiling in the bathroom with nails sticking out of it",
+                  "mitigation": "Crouch\nWear a helmet",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": "5"
+                }
+              ]
             }
           },
           {
@@ -763,6 +792,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 7
+    "threatTop": 9
   }
 }
