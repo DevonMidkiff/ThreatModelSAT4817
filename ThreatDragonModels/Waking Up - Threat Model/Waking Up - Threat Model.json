@@ -202,6 +202,19 @@
                   "new": false,
                   "number": 5,
                   "score": ""
+                },
+                {
+                  "id": "f8b37b4c-28a8-4d8e-b1ed-f459a8d78642",
+                  "title": "Roommate Leaks",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Roommate can take information from the trust zone and distribute it out",
+                  "mitigation": "Pay him to leave\nMove somewhere else\nNever speak",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": "4"
                 }
               ]
             }
@@ -220,11 +233,13 @@
                 "text": "Laundry Room"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -241,8 +256,22 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "b5d27fe8-9647-459e-b3d5-4a7b00613a1d",
+                  "title": "Boiler Exploding",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "The boiler makes a screaming noise and could explode at any moment",
+                  "mitigation": "Fix the boiler\nBuy a explosion protection suit",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": "7"
+                }
+              ]
             }
           },
           {
@@ -734,6 +763,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 7
   }
 }
