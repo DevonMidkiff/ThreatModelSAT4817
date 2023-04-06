@@ -356,11 +356,13 @@
                 "text": "Stairs to the Main Floor"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -377,8 +379,22 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "b2a3a60f-104e-40b3-bf2a-b31cd7d30b8e",
+                  "title": "Flooded Stairs",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "The stairs flood with water when it rains",
+                  "mitigation": "Seal the house better\nWaterproof and slip proof boots\nBuild a drain",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": "5"
+                }
+              ]
             }
           },
           {
@@ -792,6 +808,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 9
+    "threatTop": 10
   }
 }
